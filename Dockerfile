@@ -14,4 +14,3 @@ COPY --from=build /inst /usr/local
 WORKDIR /logviewer
 CMD ["python", "app.py"]
 COPY . /logviewer
-
